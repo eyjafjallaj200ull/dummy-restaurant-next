@@ -6,7 +6,7 @@ class Index extends React.Component {
         return (
             <div>
                 <div className="section-1 d-flex justify-content-center align-items-center">
-                    <h1>Eat with usssss</h1>
+                    <h1>Eat with us</h1>
                 </div>
                 <div className="section-2 my-3 d-flex justify-content-between">
                     <img src={produce} />
