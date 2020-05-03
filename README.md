@@ -1,3 +1,3 @@
 # dummy-restaurant-next
 ##### In development
-Dummy restaurant built with Next.js
+Dummy restaurant website built with Next.js
