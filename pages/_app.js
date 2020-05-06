@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }) {
         <React.Fragment>
             <Head>
                 <title>Best Restaurant Ever</title>
+                <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
             </Head>
             <Layout>
                 <Component {...pageProps} />

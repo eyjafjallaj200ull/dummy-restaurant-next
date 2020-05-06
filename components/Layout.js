@@ -1,8 +1,9 @@
 import Header from "./Header"
+import Fade from 'react-reveal/Fade';
 
 const Layout = (props) => (
     <div>
-        <Header />
+        <Fade top><Header /></Fade>
         {props.children}
     </div>
 )

@@ -1,3 +1,6 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
 .section-1 {
     background-image: url(public/vishwas-katti-UrQ_BS9bLXQ-unsplash.jpg);
     height: 100vh;
@@ -5,6 +8,12 @@
 .section-1 h1 {
     color: white;
 }
-.section-2 p {
+.section-2 p, .section-3 p, .section-4 p {
     font-size: 25px;
+}
+
+.section-4 {
+    color: white;
+    background-color: black;
+    margin-top: 60px;
 }
