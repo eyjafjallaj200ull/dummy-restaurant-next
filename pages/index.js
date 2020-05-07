@@ -14,7 +14,7 @@ class Index extends React.Component {
                 </div>
                 <div className="section-2 my-3 d-flex justify-content-lg-between flex-column-reverse flex-lg-row flex-wrap flex-lg-nowrap">
                     <Fade left>
-                        <img src={produce} className="mx-lg-2 img-fluid" />
+                        <img src={produce} className="mx-lg-4 img-fluid" />
                     </Fade>
                     <Fade right>
                         <p className="p-4 d-flex align-items-center">You can trust us to serve you food that's made with only the freshest ingredients.</p>
@@ -25,15 +25,17 @@ class Index extends React.Component {
                         <p className="p-4 d-flex align-items-center">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
                     </Fade>
                     <Fade right>
-                        <img src={tacos} className="mx-lg-3 img-fluid"/>
+                        <img src={tacos} className="mx-lg-4 img-fluid"/>
                     </Fade>
                 </div>
-                <Fade bottom>
-                    <div className="section-4 p-5">
+                
+                <div className="section-4 p-5">
+                    <Fade bottom>
                         <p className="m-3 text-center">Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip. Sea lettuce lettuce water chestnut eggplant winter purslane fennel azuki bean earthnut pea sierra leone bologi leek soko chicory celtuce parsley jícama salsify.
                         </p>
-                    </div>
-                </Fade>
+                    </Fade>
+                </div>
+                
             </div>
         )
     }

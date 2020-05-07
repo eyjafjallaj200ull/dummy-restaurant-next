@@ -1,19 +1,43 @@
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: #FAF9E7;
+}
+.header-navbar {
+    background-color: black;
+}
+.header-navbar a {
+    color: #FAF9E7 !important;
+}
+.nav-item .nav-link:hover {
+    color: #BBB3A8 !important;
 }
 .section-1 {
     background-image: url(public/vishwas-katti-UrQ_BS9bLXQ-unsplash.jpg);
     height: 100vh;
 }
 .section-1 h1 {
-    color: white;
+    color: #FAF9E7;
 }
-.section-2 p, .section-3 p, .section-4 p {
-    font-size: 25px;
+.section-2 p, .section-3 p {
+    font-size: 20px;
 }
 
 .section-4 {
-    color: white;
+    color: #FAF9E7;
     background-color: black;
     margin-top: 60px;
+}
+.appetizers img {
+    height: 200px;
+    width: auto;
+}
+.chefs {
+    height: 500px;
+    background: url(public/michael-browning-MtqG1lWcUw0-unsplash.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+ 
+    background-size: cover;
+    overflow: hidden !important;
 }

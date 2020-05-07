@@ -7,6 +7,7 @@ import {
     Nav,
     NavItem
 } from 'reactstrap';
+import Fade from 'react-reveal/Fade';
 
 class Header extends React.Component {
     state = {
@@ -17,11 +18,14 @@ class Header extends React.Component {
     }
     render () {
         return (
-                <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">Awesome Ristorante</NavbarBrand>
+                <Navbar dark className="header-navbar" expand="md">
+                    <Fade top>
+                        <NavbarBrand href="/">Awesome Ristorante</NavbarBrand>
+                    </Fade>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
+                            <Fade top>
                             <NavItem>
                                 <Link href="/about"><a className="text-center nav-link">About Us</a></Link>
                             </NavItem>
@@ -31,6 +35,7 @@ class Header extends React.Component {
                             <NavItem>
                                 <Link href="/contact"><a className="text-center nav-link">Contact</a></Link>
                             </NavItem>
+                            </Fade>
                         </Nav>
                     </Collapse>
                 </Navbar>
