@@ -27,14 +27,15 @@ class Header extends React.Component {
                         <Nav className="ml-auto" navbar>
                             <Fade top>
                             <NavItem>
+                                <Link href="/"><a className="text-center nav-link">Home</a></Link>
+                            </NavItem>
+                            <NavItem>
                                 <Link href="/about"><a className="text-center nav-link">About Us</a></Link>
                             </NavItem>
                             <NavItem>
                                 <Link href="/menu"><a className="text-center nav-link">Menu</a></Link>
                             </NavItem>
-                            <NavItem>
-                                <Link href="/contact"><a className="text-center nav-link">Contact</a></Link>
-                            </NavItem>
+                            
                             </Fade>
                         </Nav>
                     </Collapse>

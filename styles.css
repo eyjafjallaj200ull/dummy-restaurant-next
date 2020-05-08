@@ -27,9 +27,19 @@ body {
     background-color: black;
     margin-top: 60px;
 }
-.appetizers img {
+.menu-title img {
     height: 200px;
     width: auto;
+}
+.menu-hero {
+    height: 500px;
+    background: url(public/neven-krcmarek-q0ZvNn8SXy0-unsplash.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+ 
+    background-size: cover;
+    overflow: hidden !important;
 }
 .chefs {
     height: 500px;
