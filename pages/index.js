@@ -14,7 +14,11 @@ class Index extends React.Component {
                 </div>
                 <div className="section-2 my-3 d-flex justify-content-lg-between flex-column-reverse flex-lg-row flex-wrap flex-lg-nowrap">
                     <Fade left>
-                        <img src={produce} className="mx-lg-4 img-fluid" />
+                        <img 
+                            src={produce}
+                            className="mx-lg-4 img-fluid"
+                            alt="Two people's hands holding a bowl of fresh tomatoes"
+                        />
                     </Fade>
                     <Fade right>
                         <p className="p-4 d-flex align-items-center">You can trust us to serve you food that's made with only the freshest ingredients.</p>
@@ -25,7 +29,11 @@ class Index extends React.Component {
                         <p className="p-4 d-flex align-items-center">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
                     </Fade>
                     <Fade right>
-                        <img src={tacos} className="mx-lg-4 img-fluid"/>
+                        <img 
+                            src={tacos}
+                            className="mx-lg-4 img-fluid"
+                            alt="Tacos"
+                        />
                     </Fade>
                 </div>
                 

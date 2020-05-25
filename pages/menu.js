@@ -9,7 +9,7 @@ const Menu = () => {
             </div>
             <h1 className="text-center my-3">MENU</h1>
             <div className="d-flex align-items-center flex-column menu-title">
-                <img src={nachos} />
+                <img src={nachos} alt="Nachos with salsa and guacamole dips on the side"/>
                 <h3 className="p-3">Appetizers</h3>
                 <hr />
             </div>
@@ -31,7 +31,7 @@ const Menu = () => {
                 </div>
             </div>
             <div className="d-flex align-items-center flex-column menu-title mt-3">
-                <img src={mains} />
+                <img src={mains} alt="Dim sums"/>
                 <h3 className="p-3">Main Course</h3>
                 <hr />
             </div>
@@ -53,7 +53,7 @@ const Menu = () => {
                 </div>
             </div>
             <div className="d-flex align-items-center flex-column menu-title mt-3">
-                <img src={desserts} />
+                <img src={desserts} alt="Small chocolate cake on a plate"/>
                 <h3 className="p-3">Desserts</h3>
                 <hr />
             </div>
